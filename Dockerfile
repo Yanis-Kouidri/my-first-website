@@ -1,4 +1,4 @@
-FROM nginx:alpine-slim
+FROM yaniskouidri/lightweight-no-root-nginx
 
 RUN chown -R nobody.nobody /usr/share/nginx/html /run /var/log/nginx /etc/nginx /var/cache/nginx
 
